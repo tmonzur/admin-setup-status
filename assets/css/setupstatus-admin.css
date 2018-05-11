@@ -1,0 +1,46 @@
+/**
+ * SetupStatus admin pages styles
+ */
+/**
+ * Admin variables
+ */
+ 
+.ss-icon{
+	/*background: url('../img/setupstatus-ss.png');	*/
+} 
+ 
+.ss_menu_parent_class .ab-icon::before{
+    content: "\f184";
+	top:4px;
+}
+
+.modal {
+    max-width: 750px;
+    width: 100%;
+	display: none;
+}
+
+.modal-info{
+	width:100%; 
+	float:left; 
+	overflow:auto;
+}
+
+.modal-info p{
+	width:93%; 
+	border:1px solid #ccc;
+	padding:6px;
+	margin: 5px 0;
+}
+
+.success-msg{
+	color: green;
+}
+
+.error-msg{
+	color: red;
+}
+
+#ex2{
+	padding: 20px 10px;
+}
