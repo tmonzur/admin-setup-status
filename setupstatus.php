@@ -212,7 +212,7 @@ $plugin = plugin_basename( __FILE__ , 'settings');
 add_filter( "plugin_action_links_$plugin", 'plugin_add_settings_link' );
 
 function setupstatus_register_options_page() {
-  add_options_page('Setup Setting List', 'Setup Setting List', 'manage_options', 'setupstatus', 'myplugin_options_page');
+  add_options_page('Admin Settings Status', 'Admin Settings Status', 'manage_options', 'setupstatus', 'myplugin_options_page');
 }
 add_action('admin_menu', 'setupstatus_register_options_page');
 
